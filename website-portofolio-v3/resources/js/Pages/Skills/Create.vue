@@ -11,7 +11,7 @@
     image: null,
 });
 
-const submit = () => {
+    const submit = () => {
     form.post(route('skills.store'));
 };
 </script>

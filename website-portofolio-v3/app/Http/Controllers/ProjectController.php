@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use App\Models\Project;
+use App\Models\Skill;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Storage;
+use App\Http\Resources\ProjectResource;
 
 class ProjectController extends Controller
 {
@@ -20,7 +25,8 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        return Inertia::render('Projects/Create');
+        $skills = Skill::all();
+        return Inertia::render('Projects/Create', compact('skills'));
     }
 
     /**
@@ -28,7 +34,24 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'image'=>['required', 'image'],
+            'name'=>['required', 'min:3'],
+            'skill_id'=>['required']
+        ]);
+
+        if($request->hasFile('image')){
+            $image = $request->file('image')->store('projects');
+            Project::create([
+                'skill_id'=>$request->skill_id,
+                'name'=>$request->name,
+                'image'=>$image,
+                'project_url'=>$request->project_url
+            ]);
+
+            return Redirect::route('projects.index');
+        }
+        return Redirect::back();
     }
 
     /**
