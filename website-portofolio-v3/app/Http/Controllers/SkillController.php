@@ -9,6 +9,7 @@ use App\Models\Skill;
 use App\Http\Controllers\SkillController;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Storage;
+use App\Http\Resources\SkillResource;
 
 class SkillController extends Controller
 {
@@ -17,7 +18,8 @@ class SkillController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Skills/index');
+        $skills = SkillResource::collection(Skill::all());
+        return Inertia::render('Skills/index', compact('skills'));
     }
 
     /**
