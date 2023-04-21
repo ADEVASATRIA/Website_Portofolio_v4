@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class ProjectController extends Controller
 {
@@ -11,7 +12,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        return Inertia::render('Projects/index');
     }
 
     /**
@@ -19,7 +20,7 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('Projects/Create');
     }
 
     /**
