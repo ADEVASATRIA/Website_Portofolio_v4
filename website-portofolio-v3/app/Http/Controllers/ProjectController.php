@@ -51,7 +51,7 @@ class ProjectController extends Controller
                 'project_url'=>$request->project_url
             ]);
 
-            return Redirect::route('projects.index');
+            return Redirect::route('projects.index')->with('message', 'Project created successfully.');
         }
         return Redirect::back();
     }
@@ -87,7 +87,7 @@ class ProjectController extends Controller
             'project_url' => $project->project_url,
             'image' => $image
         ]);
-        return Redirect::route('projects.index');
+        return Redirect::route('projects.index')->with('message', 'Project updated successfully.');
     }
 
     /**

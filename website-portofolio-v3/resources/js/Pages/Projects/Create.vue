@@ -31,7 +31,7 @@
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 bg-white">
-                <form class="p-4" @submit.prevent="submit">
+                <form class="p-10" @submit.prevent="submit">
                 <div>
                     <InputLabel for="skill_id" value="Skill" />
                     <select v-model="form.skill_id" id="skill_id" name="skill_id"
@@ -52,6 +52,7 @@
                             {{ skill.name }}
                         </option>
                     </select>
+                    <InputError class="mt-2" :message="form.errors.skill_id" />
                 </div>
             <div>
                 <InputLabel for="name" value="Name" />
