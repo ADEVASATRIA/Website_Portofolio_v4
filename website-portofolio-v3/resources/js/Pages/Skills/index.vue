@@ -15,7 +15,7 @@
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">Skills</h2>
         </template>
 
-        <div class="py-12">
+        <div class="py-12"> 
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-end m-2 p-2">
                     <Link :href="route('skills.create')" class="px-4 py-2 bg-indigo-500 hover:bg-indigo-700 text-white rounded-md"> 
@@ -38,7 +38,7 @@
                             Image
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            
+                            Edit/Delete
                         </th>
                     </tr>
                 </thead>
@@ -52,7 +52,7 @@
                             {{ skill.name }}
                         </td>
                         <td class="px-6 py-4">
-                            <img :src="skill.image" />
+                            <img :src="skill.image" class="w-12 h-12 rounded-full" />
                         </td>
                         <td class="px-6 py-4">
                             Edit/Delete
@@ -60,7 +60,7 @@
                     </tr>
                 </tbody>
             </table>
-</div>
+        </div>
 
             </div>
         </div>
