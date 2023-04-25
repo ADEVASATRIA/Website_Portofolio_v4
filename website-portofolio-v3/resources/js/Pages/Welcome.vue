@@ -1,5 +1,6 @@
 <script setup>
 import FrontendLayout from '@/Layouts/Frontend.vue';
+import Hero from "@/Components/Frontend/Hero.vue";
 import { Head, Link } from '@inertiajs/vue3';
 </script>
 
@@ -7,6 +8,7 @@ import { Head, Link } from '@inertiajs/vue3';
     <Head title="Welcome To Potofolio" />
     <FrontendLayout>
         <!-- Hero primary-->
+        <Hero />
         <!-- Promote tail-100-->
         <!-- About Secondary Color -->
         <!-- SKills tail-100 -->
