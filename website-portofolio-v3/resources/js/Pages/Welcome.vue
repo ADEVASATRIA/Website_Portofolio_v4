@@ -1,12 +1,18 @@
 <script setup>
-import Frontend from '@/Layouts/Frontend.vue';
+import FrontendLayout from '@/Layouts/Frontend.vue';
 import { Head, Link } from '@inertiajs/vue3';
 </script>
 
 <template>
     <Head title="Welcome To Potofolio" />
-    <Frontend>
-        
-    </Frontend>
+    <FrontendLayout>
+        <!-- Hero primary-->
+        <!-- Promote tail-100-->
+        <!-- About Secondary Color -->
+        <!-- SKills tail-100 -->
+        <!-- Portofolio primary colors -->
+        <!-- Services Secondary Colors-->
+        <!-- Contact Primary -->
+    </FrontendLayout>
 </template>
 
