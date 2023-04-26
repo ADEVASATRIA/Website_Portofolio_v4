@@ -26,7 +26,7 @@
                     </button>
                 </div>
                 <div class="lg:flex flex-1 justify-center items-center h-full mt-8 md:mt-0 ">
-                    <img class="rounded-lg" src="/images/Hero.png" alt="Hero" />
+                    <img class="rounded-lg" src="http://127.0.0.1:8000/images/Hero.jpg" alt="Hero" style="margin-left: 60px"/>
                 </div>
             </div>
         </div>

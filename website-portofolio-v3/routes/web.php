@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\SkillController;
+use App\Http\Controllers\PhotoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,7 +38,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     // Route::resource('/projects',ProjectController::class);
 });
 
-
+Route::get('/upload', [PhotoController::class, 'create']);
+Route::post('/upload', [PhotoController::class, 'store']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
