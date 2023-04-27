@@ -28,7 +28,7 @@
             <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div class="inline-flex rounded-md shadow">
                 <a
-                href="https://www.udemy.com/course/laravel-9-admin-panel-learn-roles-and-permissions/"
+                href="https://linktr.ee/adevasatria"
                 class="
                     inline-flex
                     items-center
