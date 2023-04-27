@@ -4,7 +4,15 @@
 
 <template>
     <section id="home" class="lg:h-[85vh] flex items-center bg-light-primary dark:bg-dark-primary py-32 lg:py-0 overflow-hidden">
-        <div class="container mx-auto h-full">
+        <div class="container mx-auto h-full" v-motion
+            :initial="{
+                opacity: 0,
+                y: 100,
+            }"
+            :visible="{
+                opacity: 1,
+                y: 0,
+            }">
             <div class="flex flex-col md:flex-row items-center h-full pt-8">
                 <div class="flex-1 flex flex-col items-center lg:items-start">
                     <p class="text-lg text-accent text-md mb-[22px]">Hey , My name is Adeva </p>
