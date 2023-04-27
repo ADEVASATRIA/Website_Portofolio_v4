@@ -20,8 +20,8 @@
                         I'am Student Computer Science  <br /> At binus malang 
                     </h1>
                     <p class="pt-4 pd-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:test-left">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime aliquid non libero 
-                        ullam modi rerum sint dolor reiciendis quasi saepe doloribus, 
+                        Here is a list of my websites that I've built utilizing Laravel 
+                        as a framework and Vue with Inertia as a component. 
                     </p>
                     <button class="
                             btn btn-md

@@ -21,8 +21,7 @@
         <div class="flex flex-col items-center text-center">
             <h2 class="section-title">Future work that  Interested</h2>
             <p class="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+                For the future, I want to develop the Soft Skills and Hard Skills that I need to help with activities and work that I can use for the future. Here are the expectations that I want in the Development of Soft Skills and Hard Skills.
             </p>
         </div>
         <div class="grid lg:grid-cols-4 gap-8">
@@ -57,8 +56,10 @@
             </div>
             <h4 class="text-xl font-medium mb-2">Web Design</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                perferendis volm quibusdam ullam qui dolore.
+                The process of developing a website's appearance (interface) and layout (layout) is known as web design.
+                 Making it simpler for consumers to obtain information and interact with the website is a goal, as is producing 
+                 a positive and engaging user experience.
+
             </p>
             </div>
             <div class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl">
@@ -97,8 +98,8 @@
             </div>
             <h4 class="text-xl font-medium mb-2">Web Development</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                perferendis volm quibusdam ullam qui dolore.
+                Web development is the process of building websites, whether they are for organizational, commercial, or personal use. There are various phases to web development, including planning, designing, creating, launching, and managing a website.
+
             </p>
             </div>
             <div class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl">
@@ -132,12 +133,13 @@
             </div>
             <h4 class="text-xl font-medium mb-2">Branding</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                perferendis volm quibusdam ullam qui dolore.
+                Application development and software development branding refers to initiatives to enhance a company's or product's reputation. 
+                Developer branding in this context focuses on how the market or customers perceive and identify the developer's 
+                business or product. 
             </p>
             </div>
             <div class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl">
-            <div
+                <div
                 class="
                 text-accent
                 rounded-sm
@@ -149,7 +151,7 @@
                 mb-24
                 text-[28px]
                 "
-            >
+                >
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-24 w-24"
@@ -164,12 +166,12 @@
                     d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
                 />
                 </svg>
-            </div>
-            <h4 class="text-xl font-medium mb-2">SEO</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                perferendis volm quibusdam ullam qui dolore.
-            </p>
+                </div>
+                <h4 class="text-xl font-medium mb-2">SEO</h4>
+                <p>
+                    Search engine optimization, or SEO, is the act of improving a website so that it receives more organic (free) visitors from search engines like Google, Bing, and Yahoo. The objective is for the website to rank higher on the search results page (SERP) when a user searches for information that is pertinent to the website's topic.
+
+                </p>
             </div>
         </div>
         </div>

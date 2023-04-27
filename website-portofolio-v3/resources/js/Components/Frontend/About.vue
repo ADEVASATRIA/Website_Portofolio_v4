@@ -30,16 +30,18 @@
                 <h2 class="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
                     About Me
                 </h2>
-                <P class="mb-4 text-accent">Freelance frontend Web developer</P>
+                <P class="mb-4 text-accent">Adeva Satria Arif Wibawa </P>
                 <hr class="mb-8 opacity-90 dark:opacity-5" />
                 <p class="mb-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                    earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                    neque harum velit molestiae dignissimos distinctio dolorum nisi
-                    labore culpa nihil. <br />
+                    Greetings to all. Greetings, I'm Adeva Satria Arif Authority. 
+                    I'm currently a student at Bina Nusantara University and I'm 20 years old. 
+                    by selecting a computer science major. <br />
                     <br />
-                    Qui doloremque quod sit accusantium unde totam inventore
-                    cupiditate ratione esse maxime eum recusandae ducimus.
+                    Future work in my field will center on being a Full Stack developer. 
+                    by being familiar with front- and back-end developers. I'm presently majoring 
+                    in / streaming in digital creative technology at Binus Malang as a result of this. 
+                    I can learn a lot to become a Full Stack Developer by enrolling in the streaming.
+
                 </p>
                 </div>
                 <a href="#contact" class="btn btn-md bg-accent text-light-tail-100">
