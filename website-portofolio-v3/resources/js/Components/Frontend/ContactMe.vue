@@ -39,8 +39,8 @@
         <div class="flex flex-col items-center text-center">
             <h2 class="section-title">Contact Me</h2>
             <p class="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+                If you want to communicate with me please email me adevawibawa@gmail.com. 
+                Or by typing your name, email , and message directly below .
             </p>
         </div>
         <div class="flex flex-col lg:flex-row lg:gap-x-8">
@@ -127,7 +127,7 @@
                 </div>
                 <div>
                 <h4 class="font-body text-xl mb-1">Current Location</h4>
-                <P class="mb-1 text-paragraph">Malang, East Jaava, Indonesia.</P>
+                <P class="mb-1 text-paragraph">Malang, East Java, Indonesia.</P>
                 </div>
             </div>
             </div>
