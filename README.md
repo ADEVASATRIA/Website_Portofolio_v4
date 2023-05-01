@@ -3,5 +3,5 @@ Repository berikut merupakan repository yang digunakan untuk menyimpan proyek we
 
 # CONTACT 
 
-  Name    : Adeva Satria Arif Wibawa
-  Email   : adevawibawa@gmail.com
+  - Name    : Adeva Satria Arif Wibawa
+  - Email   : adevawibawa@gmail.com
