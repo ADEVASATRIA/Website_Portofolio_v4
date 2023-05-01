@@ -1,7 +1,7 @@
 # DESKRIPSI  
 Repository berikut merupakan repository yang digunakan untuk menyimpan proyek web - portofolio yang sudah saya buat dan dapat digunakan secara optimal. 
 
-# Prerequisites
+# PREREQUISITES
  Program yang digunakan dan dibutuhkan dalam menjalankan projek ini : 
   - PHP (versi yang disarankan adalah 7.4 atau yang lebih baru)
   - Composer (untuk laravel)
