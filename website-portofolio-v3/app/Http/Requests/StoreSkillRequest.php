@@ -23,7 +23,7 @@ class StoreSkillRequest extends FormRequest
     {
         return [
             'name' => ['required', 'min:3', 'max:20'],
-            'image' => ['required', 'image', 'max:2048'.$this->skill->id]
+            'image' => ['required', 'image', 'max:2048']
         ];
     }
 }

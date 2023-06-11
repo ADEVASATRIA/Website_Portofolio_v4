@@ -13,24 +13,6 @@ class AuthController extends Controller
         $this->middleware('auth:api', ['except' => ['login', 'register']]);
     }
 
-    // public function register(LoginRequest $request){
-    //     $request->validate([
-    //         'name' => 'required',
-    //         'email' => 'required|email|unique:users',
-    //         'password' => 'required|min:8',
-    //     ]);
-
-    //     $user = User::create([
-    //         'name' => $request->name,
-    //         'email' => $request->email, 
-    //         'password' => bcrypt($request->password),
-    //     ]);
-
-    //     $token = auth()->login($user);
-
-    //     return $this->respondWithToken($token);
-    // }
-
     public function login()
     {
         $credentials = request(['email', 'password']);

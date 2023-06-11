@@ -23,11 +23,24 @@ class SkillController extends Controller
 
     public function store(StoreSkillRequest $request)
     {
-        // $validatedData = $request->validated();
-        Skill::create($request->validated());
-
-        // Process the validated data and store the skill
-
+        $validatedData = $request->validated();
+        
+        $request->validate([
+            'name' => ['required', 'min:3', 'max:20'],
+            'image' => ['required', 'image', 'max:2048']
+        ]);
+    
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imagePath = $image->store('skills', 'public');
+            $skill = Skill::create([
+                'name' => $validatedData['name'],
+                'image' => $imagePath
+            ]);
+        }
+    
+        // Proses data yang divalidasi dan simpan skill
+    
         return response()->json([
             'message' => 'Skill created successfully!'
         ]);
