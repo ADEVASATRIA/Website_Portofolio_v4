@@ -13,10 +13,9 @@ class SkillController extends Controller
 {
     public function index()
     {
-        return response()->json([
-            'message' => 'Hello World!'
-        ]);
+        return SkillResource::collection(Skill::all());
     }
+
     public function show(Skill $skill)
     {
         return new SkillResource($skill);
@@ -39,6 +38,14 @@ class SkillController extends Controller
 
         return response()->json([
             'message' => 'Skill updated successfully!'
+        ]);
+    }
+
+    public function destroy(Skill $skill){
+        $skill->delete();
+
+        return response()->json([
+            'message' => 'Skill deleted successfully!'
         ]);
     }
     
