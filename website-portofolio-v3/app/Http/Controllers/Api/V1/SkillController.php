@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\StoreSkillRequest;
 use App\Models\Skill;
 use App\Http\Resources\SkillResource;
+use Illuminate\Support\Facades\Auth;
 
 class SkillController extends Controller
 {

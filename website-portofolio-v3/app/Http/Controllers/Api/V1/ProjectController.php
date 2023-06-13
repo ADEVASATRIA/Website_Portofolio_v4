@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Skill;
 use App\Models\Project;
 use App\Http\Requests\StoreProjectRequest;
+use Illuminate\Support\Facades\Auth;
 
 class ProjectController extends Controller
 {
