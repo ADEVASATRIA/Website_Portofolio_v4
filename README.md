@@ -18,4 +18,4 @@ Repository berikut merupakan repository yang digunakan untuk menyimpan proyek we
 # LINK DEMO WEBSITE [ CRUD ]
 
  - YOUTUBE : https://www.youtube.com/watch?v=jTuF8-YnzQI&t=195s
-https://github.com/ADEVASATRIA/Website_Portofolio_v4/assets/91967271/7934f3a2-6c3d-4a50-be99-908135ba842c
+
